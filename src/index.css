@@ -349,7 +349,7 @@ button {
 @media (min-width: 850px) {
   .swiperSlideDiv {
     height: 50vh;
-    background-Size: 50vw;
+    background-Size: 90vw;
   }
 }
 
@@ -445,10 +445,10 @@ button {
   border-radius: 1.5rem;
   object-fit: cover;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .categoryListingImg {
-    width: 19%;
-    height: 217px;
+    height: 25vh;
+    width: 45vw;
   }
 }
 
