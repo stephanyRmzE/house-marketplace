@@ -121,33 +121,35 @@ function Profile() {
             {changeDetails ? "Done" : "change"}
           </p>
         </div>
-        <div className='profileCard'>
-          <form>
-            <input
-              type='text'
-              id='name'
-              className={!changeDetails ? "profileName" : "profileNameActive"}
-              disabled={!changeDetails}
-              value={name}
-              onChange={onChange}
-            />
 
-            <input
-              type='text'
-              id='email'
-              className={!changeDetails ? "profileEmail" : "profileEmailActive"}
-              disabled={!changeDetails}
-              value={email}
-              onChange={onChange}
-            />
-          </form>
-        </div>
+          <div className='profileCard'>
+            <form>
+              <input
+                type='text'
+                id='name'
+                className={!changeDetails ? "profileName" : "profileNameActive"}
+                disabled={!changeDetails}
+                value={name}
+                onChange={onChange}
+              />
 
-        <Link to='/create-listing' className='createListing'>
-          <img src={homeIcon} alt='Home' />
-          <p>Sell or Rent</p>
-          <img src={arrowRight} alt='arrow right' />
-        </Link>
+              <input
+                type='text'
+                id='email'
+                className={!changeDetails ? "profileEmail" : "profileEmailActive"}
+                disabled={!changeDetails}
+                value={email}
+                onChange={onChange}
+              />
+            </form>
+          </div>
+
+          <Link to='/create-listing' className='createListing'>
+            <img src={homeIcon} alt='Home' />
+            <p>Sell or Rent</p>
+            <img src={arrowRight} alt='arrow right' />
+          </Link>
+    
 
         {!loading && listings?.length > 0 && (
           <>
