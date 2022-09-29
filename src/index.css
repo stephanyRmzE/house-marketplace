@@ -335,7 +335,7 @@ button {
 .swiperSlideDiv {
   background-Repeat: no-repeat;
   background-Position:center;
-  background-Size: 70vw;
+  background-Size: 90vw;
   height: 35vh;
 
 }
@@ -348,8 +348,8 @@ button {
 
 @media (min-width: 850px) {
   .swiperSlideDiv {
-    height: 55vh;
-    background-Size: 60vw;
+    height: 50vh;
+    background-Size: 95vw;
   }
 }
 
@@ -361,8 +361,8 @@ button {
 .swiperSlideText {
   color: #ffffff;
   position: absolute;
-  top: -7%;
-  left: 2%;
+  top: -4%;
+  left: 1%;
   font-weight: 600;
   max-width: 90%;
   font-size: 1.25rem;
@@ -379,7 +379,7 @@ button {
 .swiperSlidePrice {
   color: #000000;
   position: absolute;
-  top: 14%;
+  top: 10%;
   left: 11px;
   font-size: 1rem;
   font-weight: 600;
