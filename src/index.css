@@ -335,8 +335,8 @@ button {
 .swiperSlideDiv {
   background-Repeat: no-repeat;
   background-Position:center;
-  background-Size: 75vw;
-  height: 25vh;
+  background-Size: 70vw;
+  height: 35vh;
 
 }
 
@@ -348,8 +348,8 @@ button {
 
 @media (min-width: 850px) {
   .swiperSlideDiv {
-    height: 50vh;
-    background-Size: 90vw;
+    height: 55vh;
+    background-Size: 60vw;
   }
 }
 
@@ -427,7 +427,7 @@ button {
 .categoryListing {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 1rem;
   position: relative;
 }
@@ -440,15 +440,15 @@ button {
   padding: 0;
 }
 .categoryListingImg {
-  width: 30%;
-  height: 8rem;
+  width: 38vw;
+  height: 19vh;
   border-radius: 1.5rem;
   object-fit: cover;
 }
 @media (min-width: 900px) {
   .categoryListingImg {
-    height: 25vh;
-    width: 45vw;
+    height: 34vh;
+    width: 50vw;
   }
 }
 
@@ -457,9 +457,10 @@ button {
   width: 65%;
   padding: 0 0.5rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .categoryListingDetails {
     width: 79%;
+    padding: 0 0 0 1em;
   }
 }
 
@@ -652,11 +653,13 @@ button {
 }
 
 .profile {
+  margin-top: 2em;
   margin-bottom: 10rem;
 
 }
 
 .profileHeader {
+  height: 4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -736,7 +739,7 @@ button {
   border-radius: 1rem;
   padding: 0.25rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.2);
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-weight: 600;
   max-width: 500px;
   display: flex;
@@ -745,7 +748,7 @@ button {
 }
 
 .listingText {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-weight: 600;
 }
 
@@ -877,4 +880,8 @@ button {
   margin-left: 1rem;
   font-size: 0.8rem;
   opacity: 0.75;
+}
+
+.slider-container{
+  margin: 1em 0;
 }
